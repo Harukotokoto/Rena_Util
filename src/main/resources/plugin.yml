@@ -1,0 +1,18 @@
+name: rena_util
+version: '${project.version}'
+main: org.rena.rena_util.Rena_util
+api-version: '1.20'
+prefix: 'R Util'
+authors: [Rena]
+website: https://github.com/RenaOfficial
+commands:
+  fly:
+    aliases:
+      - f
+    permission: rena_util.command.fly
+    permission-message: '権限がありません'
+    usage: '/fly [on/off]'
+#  wjump:
+#    permission: rena_util.command.wjump
+#    permission-message: '権限がありません'
+#    usage: '/wjump [on/off]'
